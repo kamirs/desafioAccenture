@@ -1,4 +1,4 @@
-package br.com.desafioAccenture;
+package br.com.desafio;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-package br.com.desafioAccenture.Page;
+package br.com.desafio.Page;
 
 import java.awt.AWTException;
 import java.awt.Robot;
@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import br.com.desafioAccenture.Util;
+import br.com.desafio.Util;
 
 public class mapeamentoPage extends Util {
 

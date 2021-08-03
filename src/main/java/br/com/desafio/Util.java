@@ -1,10 +1,10 @@
-package br.com.desafioAccenture;
+package br.com.desafio;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import cucumber.api.java.After;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Util {
 	
@@ -14,7 +14,8 @@ public class Util {
 	
 	public void  setup(String url) throws InterruptedException {
 
-		    System.setProperty("webdriver.chrome.driver", "C:\\Webdriver\\bin\\ChromeDriver.exe");
+			WebDriverManager.chromedriver().setup();
+			//System.setProperty("webdriver.chrome.driver", "C:\\Webdriver\\bin\\ChromeDriver.exe");
 		    ChromeOptions options = new ChromeOptions();
 		    options.addArguments("start-maximized");
 		    options.addArguments("disable-infobars");

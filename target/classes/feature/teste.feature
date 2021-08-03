@@ -27,7 +27,7 @@ Funcionalidade: desafioAccenture
     E Seleciono a ocupacao "Public Official"
     E Seleciono Hobbies
     E Realizo o click no segundo next
-    E preencho a startDate "06/02/2021"
+    E preencho a startDate "09/09/2021"
     E seleciono a insurancesum "3000000"
     E seleciono o Merit Rating "Bonus 1"
     E Seleciono o damageinsurance "No Coverage"
